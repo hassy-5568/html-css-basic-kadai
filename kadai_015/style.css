@@ -1,0 +1,30 @@
+.html{
+  font-size: 20px;
+}
+
+.title{
+  font-size: 2rem;
+  /* text-align: center;今回は全て中央寄せ*/
+  letter-spacing: 1.2em;
+  text-shadow: 3px 3px 2px rgba(0,0,0,0.2);
+  /* 影のcolorをブラックにすると透明度がいじれない。 */
+  font-family: "Josefin Sans", sans-serif;
+  /* text-decoration: underline;だと色が指定できない？ */
+  border-bottom: solid 3px rgb(115, 115, 114);
+}
+
+.body{
+  font-family: "Arial", "Meiryo", sans-serif;
+  text-align: center;
+}
+
+.blue{
+  color:skyblue;
+}
+.pink{
+  color:  rgb(255, 192, 203) ;
+}
+
+#basic p{
+  font-weight: bold;
+}
